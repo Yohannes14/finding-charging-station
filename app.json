@@ -25,6 +25,24 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/font/Outfit-Bold.ttf",
+            "./assets/font/Outfit-Regular.ttf",
+            "./assets/font/Outfit-SemiBold.ttf"
+          ]
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow EV Station to use your location."
+        }
+      ]
+    ]
   }
 }
